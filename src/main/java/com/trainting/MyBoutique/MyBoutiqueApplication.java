@@ -1,0 +1,18 @@
+package com.trainting.MyBoutique;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import springfox.documentation.oas.annotations.EnableOpenApi;
+
+
+@SpringBootApplication
+@EnableOpenApi
+public class MyBoutiqueApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MyBoutiqueApplication.class, args);
+
+
+	}
+
+}
